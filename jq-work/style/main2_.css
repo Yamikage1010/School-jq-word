@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* CSS Document */
+.main2_top:hover{box-shadow: 5px 5px 10px #222222;}
+.main2_top {
+	height: 60px;
+	width: 1200px;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 20px 0 0 0;
+}
+
+.main2_top h {
+	font-family: "黑体";
+	font-size: 40px;
+	color: #000000;
+}
+
+.main2_main1 {
+	height: 650px;
+	width: 900px;
+	margin: auto;
+	margin-top: 30px;
+	background: rgba(255, 255, 255, 0.5);
+}
+.main2_main1:hover{box-shadow: 5px 5px 10px #222222;}
+.main2_main1_left {
+	height: 500px;
+	width: 800px;
+	position: absolute;
+	margin: 100px auto auto 45px;
+	border: solid 6px #FFFFFF;
+	border-radius: 5px;
+}
+.main2_main1_left:hover{box-shadow: 5px 5px 10px #222222;}
+.main2_main_leftover{
+	height: 500px;
+	width: 800px;
+	background: rgba(000,000,000,0.5);
+	display: none;
+	}
+.main2_main1_top {
+	height: 60px;
+	width: 960px;
+	margin-top: 20px;
+	margin-left: 30px;
+	position: absolute;
+	text-align: left;
+}
+
+.main2_main1_top h {
+	font-family: "黑体";
+	font-size: 60px;
+	color: #000000;
+}
+
+.main2_main1_left p {
+	font-family: "黑体";
+	font-size: 30px;
+	color: #eaeaea;
+	text-align: left;
+	line-height: 40px;
+	display: none;
+}
+
+.main2_main1_top h2 {
+	color: #000000;
+	font-family: "黑体";
+	font-size: 38px;
+	float: left;
+}
+
+.main2_main1_top h3 {
+	color: #000000;
+	font-family: "黑体";
+	font-size: 44px;
+	float: left;
+}
+
+.main2_foot {
+	height: 80px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.main2_foot2 {
+	height: 80px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.main2_foot_pages {
+	height: 50px;
+	width: 400px;
+	margin-top: 15px;
+	position: absolute;
+	margin-left: 400px;
+}
+
+.main2_foot ul {
+	width: 400px;
+	height: 50px;
+	list-style: none;
+	margin: auto;
+}
+
+.main2_foot ul li {
+	font-family: "黑体";
+	color: #000000;
+	font-size: 20px;
+	margin: 12px 10px 12px 10px;
+	width: auto;
+	float: left;
+}
+
+.main2_foot a {
+	font-family: "黑体";
+	color: #0011FF;
+	font-size: 20px;
+}
+
+.main2_foot a:hover {
+	color: #FFF000;
+}

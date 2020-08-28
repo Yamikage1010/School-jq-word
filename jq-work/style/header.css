@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+.simpleblock {
+    border: 6px solid rgba(32, 54, 139, 1) ;
+    background: url(../images/header.jpg);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header {
+	height: 58px;
+	position: absolute;
+	top: 0;
+	left: -3px;
+	right: 0;
+	box-sizing: border-box;
+	text-align: center;
+	min-width: inherit;
+}
+.header-content {
+    width: 1230px;
+    height: 46px;
+    display: inline-block;
+    position: relative;
+}
+.header-left {
+    position: absolute;
+	text-align: left;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 600px;
+    line-height: 46px;
+    z-index: 2;
+	
+}
+.header-right{
+    position: absolute;
+    left: 65%;
+    top: 0;
+    bottom: 0;
+    line-height: 46px;
+    text-align: left;
+    z-index: 2;
+    width: 430px;
+    white-space: nowrap;
+}
+
+.logoplace {
+    background: url(../images/logobg.png)  center top no-repeat;
+    height: 200px;
+	min-width: inherit;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: inline-block;
+    padding-top: 40px;
+}
+.logoplace a:hover,a:visited{
+	text-decoration: none;
+    color: #fff100;
+    cursor: pointer;
+	opacity: 0.6;
+}
+.logoplace a:-webkit-any-link{
+	color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logoplace element.style {
+    cursor: pointer;
+}
+.logoplace img{
+	transition: all 0.5s;
+}
+.logoplace img:hover{
+	transform:scale(1.1);
+}
+
+element.style {
+    float: left;
+}
+.header a{
+	font-family: "黑体";
+	color:#000000;
+	font-size: 26px;
+	margin:  0 20 0 20;
+	text-decoration: none;
+}
+.header a:link,a:visited{
+	padding: 10px 16px 10px 16px;
+	background: url(../images/alink1.jpg);
+	border-left: 2px solid  #2E49A2;
+	border-right:  2px solid #2E49A2;
+}
+.header a:hover{
+	color: #F9E500;
+	padding: 10px 16px 10px 16px;
+	background: url(../images/alink2.jpg);
+}
+.header form {
+    display: block;
+    margin-bottom: 2px;
+}
+.header element.style {
+    display: inline-block;
+}
+.search{
+	height: 40px;
+	width: 240px;
+}
+.search-field {
+    color: #ffffff;
+    vertical-align: middle;
+    padding: 0 5px 0px 5px;
+    height: 35px;
+    width: 240px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0;
+    background: url(../images/search.png) center no-repeat;
+}
+
+/*input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}*/
